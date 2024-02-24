@@ -1,0 +1,28 @@
+.header {
+    padding: 2rem; /* Añade relleno según sea necesario */
+    text-align: center; /* Alinea el contenido al centro */
+    color: #31ba2f;
+}
+
+  
+  .nav {
+    display: flex;
+    justify-content: space-between; 
+    color: #31ba2f;/* Distribuye los elementos horizontalmente */
+    max-width: 600px; /* Ancho máximo para evitar que se expanda demasiado */
+    margin: 0 auto; /* Centra la navegación horizontalmente */
+  }
+  
+  .nav a {
+    color: #31ba2f; /* Color de enlace */
+    padding: 0.5rem 1rem; /* Espacio interno */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav a:hover {
+    background-color: #d82424; /* Color de fondo al pasar el ratón */
+    
+}
+
+  
